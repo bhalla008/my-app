@@ -39,7 +39,7 @@ node {
        }
    }
    stage('Email Notification'){
-		mail bcc: '', body: """Hi Team, You build successfully deployed
+		mail bcc: '', body: """Hi Team, You build successfully deployed by
 		                       Job URL : ${env.JOB_URL}
 							   Job Name: ${env.JOB_NAME}
 
